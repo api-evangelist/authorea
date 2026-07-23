@@ -1,7 +1,30 @@
 aid: authorea
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/authorea.png
 name: Authorea
-description: Authorea is a company surfaced as a portfolio company of bloomberg-beta and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Authorea is a collaborative online platform for writing, editing, reviewing,
+  and publishing scholarly and scientific documents. Founded in 2012 by Alberto
+  Pepe and Nathan Jenkins, it lets researchers co-author articles in rich text
+  or LaTeX, manage citations and references, embed data, figures, and code, run
+  version-controlled review, and export to journal-specific styles. Authorea was
+  acquired by Atypon in 2018 and is now operated as part of John Wiley & Sons,
+  hosted on Atypon's Literatum publishing platform, where it supports preprints,
+  journal submission, and open collaboration for the research community. It has
+  no public developer API today; its earlier REST API was retired after the
+  Wiley/Atypon acquisition, and the GitHub organization now publishes only
+  document-processing tooling (LaTeXML, Pandoc, TeX styling) rather than API
+  client SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/authorea/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Scholarly Publishing
+- Academic Writing
+- Collaboration
+- Research
+- Preprints
+- LaTeX
+- Wiley
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.authorea.com
+- type: GitHubOrganization
+  url: https://github.com/authorea
+- type: WellKnown
+  url: well-known/authorea-well-known.yml
+- type: SecurityTxt
+  url: well-known/authorea-security.txt
+- type: VulnerabilityDisclosure
+  url: security/authorea-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.authorea.com/.well-known/security.txt
+- type: DomainSecurity
+  url: security/authorea-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

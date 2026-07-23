@@ -1,0 +1,20 @@
+generated: '2026-07-18'
+method: searched
+host: https://www.authorea.com
+source: live probes of /.well-known/* (browser UA)
+documents:
+- path: /.well-known/security.txt          # RFC 9116
+  status: 200
+  file: authorea-security.txt
+- path: /.well-known/openid-configuration   # OIDC discovery
+  status: 403
+- path: /.well-known/oauth-authorization-server  # RFC 8414
+  status: 403
+- path: /.well-known/api-catalog             # RFC 9727
+  status: 403
+- path: /.well-known/ai-plugin.json
+  status: 403
+notes: >-
+  Host is served behind the Atypon Literatum platform (Wiley) with bot
+  protection; only /.well-known/security.txt returned a real 200. The other
+  well-known paths returned 403 (edge bot-block, not a confirmed 404).
