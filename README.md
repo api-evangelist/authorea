@@ -64,6 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Authorea is a company surfaced as a portfolio company of bloomberg-beta and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Authorea is a collaborative online platform for writing, editing, reviewing, and publishing scholarly and scientific documents. Founded in 2012 by Alberto Pepe and Nathan Jenkins, it lets researchers co-author articles in rich text or LaTeX, manage citations and references, embed data, figures, and code, run version-controlled review, and export to journal-specific styles. Authorea was acquired by Atypon in 2018 and is now operated as part of John Wiley & Sons, hosted on Atypon's Literatum publishing platform, where it supports preprints, journal submission, and open collaboration for the research community. It has no public developer API today; its earlier REST API was retired after the Wiley/Atypon acquisition, and the GitHub organization now publishes only document-processing tooling (LaTeXML, Pandoc, TeX styling) rather than API client SDKs.
 
-Backed by: bloomberg-beta — https://www.authorea.com
+**Areas:** Company · Scholarly Publishing · Academic Writing · Collaboration · Research · Preprints · LaTeX · Wiley
+
+## Authorea on APIs.io
+
+Everything profiled for Authorea is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/authorea/](https://apis.io/providers/authorea/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Authorea Domain Security](https://apis.io/security/authorea/authorea-domain-security/)
+- [Authorea Vulnerability Disclosure](https://apis.io/security/authorea/authorea-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.authorea.com)
+- [Security](https://www.authorea.com/.well-known/security.txt)
+- [GitHub](https://github.com/authorea)
+
+## API Evangelist rating
+
+**Kin Score 4.9** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.8** — Education & Research
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/authorea/](https://apis.io/providers/authorea/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Authorea: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/authorea/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
